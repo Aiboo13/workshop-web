@@ -6,7 +6,6 @@ module.exports = {
       } else {
           req.session.destroy(function(err) {
               res.redirect('/login');
-              
           })
       }
   },
